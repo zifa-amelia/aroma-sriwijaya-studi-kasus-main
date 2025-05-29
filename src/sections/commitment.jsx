@@ -1,5 +1,5 @@
-import { Coffee } from "lucide-react";
-import { Leaf } from "lucide-react";
+import { Crown } from "lucide-react";
+import { ChefHat } from "lucide-react";
 import { Globe } from "lucide-react";
 import { Award } from "lucide-react";
 
@@ -15,41 +15,42 @@ export default function CommitmentSection() {
         </div>
         <div className="flex items-center gap-2">
           <Award className="text-amber-800" />
-          <h2 className="text-3xl font-bold">Our Commitment to Excellence</h2>
+          <h2 className="text-3xl font-bold">OUR C0MMITMENT TO EXCLLENCE</h2>
         </div>
         <p className="text-base text-gray-600">
-          Discover why coffee businesses around the world trust Aroma Sriwijaya
-          for their premium Indonesian coffee needs.
+          Temukan alasan mengapa pecinta kuliner di seluruh dunia mempercayai
+          Cita Nusa Resto untuk menikmati cita rasa otentik kuliner Nusantara yang premium.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="card card-border bg-base-100 ">
           <div className="card-body">
-            <Globe className="text-amber-800 h-8 w-8" />
-            <h2 className="card-title font-bold">Global Reach</h2>
+            <Globe className="text-amber-500 h-8 w-8" />
+            <h2 className="card-title font-bold">Rasa Nusantara,Menembus Dunia</h2>
             <p>
-              We export to roasteries and wholesalers worldwide, with efficient
-              logistics and reliable delivery.
+              Dari dapur kami ke meja Anda,kami menghadirkan cita rasa otentik Indonesia kepada
+              pecinta kuliner di berbagai penjuru dunia, dengan pengiriman tepat waktu dan layanan 
+              terpercaya.
             </p>
           </div>
         </div>
         <div className="card card-border bg-base-100 ">
           <div className="card-body">
-            <Coffee className="text-amber-800 h-8 w-8" />
-            <h2 className="card-title font-bold">Global Reach</h2>
+            <Crown className="text-amber-500 h-8 w-8" />
+            <h2 className="card-title font-bold">Cita Rasa Lokal,Jangkauan Internasional</h2>
             <p>
-              We export to roasteries and wholesalers worldwide, with efficient
-              logistics and reliable delivery.
+              Cafe Nusa Resto melayani pelanggan global yang mencari pengalaman kuliner khas Nusantara,
+              melalui sistem logistik yang efisien dan pengiriman yang dapat diandalkan.
             </p>
           </div>
         </div>
         <div className="card card-border bg-base-100 ">
           <div className="card-body">
-            <Leaf className="text-amber-800 h-8 w-8" />
-            <h2 className="card-title font-bold">Global Reach</h2>
+            <ChefHat className="text-amber-500 h-8 w-8" />
+            <h2 className="card-title font-bold">Membawa Indonesia ke Dunia</h2>
             <p>
-              We export to roasteries and wholesalers worldwide, with efficient
-              logistics and reliable delivery.
+              Kami bangga mengekspor ke berbagai negara, menghadirkan kekayaan rasa dan budaya kuliner Indonesia dari Cafe Nusa Resto ke resto dan kafe mitra kami di seluruh dunia—dengan
+              kualitas, kecepatan, dan ketepatan
             </p>
           </div>
         </div>

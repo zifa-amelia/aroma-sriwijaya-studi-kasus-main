@@ -8,25 +8,28 @@ export default function AboutSection() {
     >
       <div className="grid grid-cols-2 gap-8">
         <div className="h-full flex flex-col gap-4 items-start">
-          <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-lg">
-            Direct from Indonesia
+          <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-lg font-bold">
+            DIRECT FROM INDONESIA
           </div>
           <h1 className="text-3xl font-bold">
-            Exceptional Coffee Beans from the Heart of Indonesia
+            Cita Nusa Resto Harmoni Rasa,Cita Rasa Nusantara
           </h1>
           <p className="text-xl">
-            Aroma Sriwijaya works directly with local farmers across Indonesia
-            to source the finest Arabica and Robusta coffee beans. Our
-            commitment to quality and sustainability ensures that every bean we
-            export meets the highest standards.We believe that the finest quality can only
-             be achieved through trusted sources that are managed responsibly. That’s why we actively build long-term relationships with local farmers, providing training and support to ensure that the coffee cultivation process is sustainable and environmentally friendly.
+            Selamat Datang di CITA NUSA RESTO, tempat di mana cita rasa dan kenyamanan berpadu
+             dalam pengalaman kuliner yang tak terlupakan. Kami menyajikan berbagai hidangan lezat
+              yang dibuat dari bahan-bahan segar dan berkualitas tinggi, diperkaya dengan sentuhan 
+              rasa khas yang memanjakan lidah. Dengan suasana yang hangat dan pelayanan yang ramah, 
+              kami berkomitmen menjadi pilihan utama Anda untuk makan siang bersama keluarga, makan
+              malam romantis, atau momen-momen istimewa lainnya. Setiap hidangan yang kami sajikan
+              dibuat dengan penuh perhatian, semangat, dan ketelitian. Datang dan nikmati momen spesial
+              Anda bersama kami di Cita Nusa Resto, dan rasakan kenikmatan dalam setiap gigitan.
           </p>
-          <button className="bg-amber-800 text-cyan-50 border border-cyan-200 py-2 px-4 rounded-lg hover:text-black">
-            See Our Products
+          <button className="bg-orange-800 text-slate-950 border border-cyan-400 py-2 px-4 font-medium rounded-lg hover:text-black hover:bg-neutral-600">
+            SEE OUR PRODUCTS
           </button>
         </div>
         <div>
-          <img src="/about-beans.jpg" className="shadow-lg rounded-lg" />
+          <img src="/jawa.jpg" className="shadow-lg rounded-lg" />
         </div>
       </div>
     </section>
