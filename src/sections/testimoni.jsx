@@ -12,7 +12,7 @@ export default function TestimonialSection() {
     >
       <div className="flex flex-col items-center gap-2">
         <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-lg font-medium">
-          TESTIMONIALS
+          🎗TESTIMONIALS
         </div>
         <div className="flex items-center gap-2">
           <ChefHat className="text-orange-400" />
@@ -57,7 +57,7 @@ export default function TestimonialSection() {
       </div>
       <div className="flex flex-col items-center gap-2">
         <div className="bg-amber-100 text-amber-800 px-2 py-1 rounded-lg font-medium">
-          TESTIMONIALS
+          🎗TESTIMONIALS
         </div>
         <div className="flex items-center gap-2">
           <ChefHat className="text-orange-400" />

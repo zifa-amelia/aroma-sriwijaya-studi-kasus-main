@@ -9,7 +9,7 @@ export default function ContactSection() {
       <div className="grid grid-cols-2 gap-8">
         <div className="h-full flex flex-col gap-4 items-start">
           <div className="bg-amber-900 text-amber-100 px-2 py-1 rounded-lg">
-            Contact Us
+            ☎Contact Us
           </div>
           <h1 className="text-3xl font-bold">
             Ready to Source Premium Indonesian Nusantara Cuisine ?
@@ -20,9 +20,9 @@ export default function ContactSection() {
           </p>
           <div className="flex items-center gap-2">
             <button className="btn bg-amber-800 text-white border-none">
-              Contact Us
+              ☎Contact Us
             </button>
-            <button className="btn btn-outline ">Call Us</button>
+            <button className="btn btn-outline ">📞Call Us</button>
           </div>
         </div>
         <div>

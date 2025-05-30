@@ -1,4 +1,4 @@
-import { Utensils } from "lucide-react";
+import { ChefHat, Coffee } from "lucide-react";
 import { Menu } from "lucide-react";
 
 export default function Navbar() {
@@ -6,12 +6,12 @@ export default function Navbar() {
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
             <Menu />
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow lg:hidden"
           >
             <li>
               <a>Beranda</a>
@@ -27,59 +27,142 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl flex items-center gap-2">
-          <Utensils className="text-amber-800" />
-          ANusa Resto
+        <a className="font-medium text-xl flex items-center gap-2">
+          👨🏻‍🍳👩🏻‍🍳ANusa Resto
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className=" hidden md:dropdown dropdown-hover hover:cursor-pointer w-35 ">
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn hover:bg-orange-900 hover:rounded-box hover:text-white m-1 "
+        >
+          <span className="hidden lg:inline ">Tentang Kami</span>
+        </div>
+        <ul
+          tabIndex={0}
+          className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow "
+        >
           <li>
-            <a>Beranda</a>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Beverages
+            </a>
           </li>
           <li>
-            <a>Tentang Kami</a>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Food
+            </a>
           </li>
           <li>
-            <a>Produk Kami</a>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Drinks
+            </a>
           </li>
           <li>
-            <a>Kontak Kami</a>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Other
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className=" hidden md:dropdown dropdown-hover w-35">
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn btn m-1 hover:bg-orange-900 hover:rounded-box hover:text-white m-1"
+        >
+          <span className="hidden lg:inline">Kontak Kami</span>
+        </div>
+        <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow ">
+          <li>
+            <a className="hover:bg-orange-900:rounded-box hover:text-white">
+              {" "}
+              Whatsap
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Email
+            </a>
+          </li>
+          <li>
+            <a>Phone</a>
+          </li>
+        </ul>
+      </div>
+      <div className="hidden md:dropdown dropdown-hover">
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn hover:bg-orange-900 hover:rounded-box hover:text-white m-1 btn m-1 "
+        >
+          <span className="hidden lg:inline">Menu</span>
+        </div>
+        <ul
+          tabIndex={0}
+          className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow "
+        >
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Beverages
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Food
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Drinks
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Other
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="hidden md:dropdown dropdown-hover">
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn hover:bg-orange-900 hover:rounded-box hover:text-white m-1 btn m-1 "
+        >
+          <span className="hidden lg:inline">Tentang Kami</span>
+        </div>
+        <ul
+          tabIndex={0}
+          className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow "
+        >
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              TikTok
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              WhattApp
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-orange-900 hover:rounded-box hover:text-white">
+              Email
+            </a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Order Now!</a>
+        <a className="btn hover:bg-orange-900 hover:rounded-box hover:text-white">
+          Pesan Sekarang!
+        </a>
       </div>
-      <div className="navbar bg-orange-100 shadow-sm p-1 min-h-8 h-10">
-  <div className="flex-1">
-    <a className="btn btn-ghost text-sm">NUSANTARA</a>
-  </div>
-  <div className="flex gap-2">
-    <input type="text" placeholder="Search" className="input input-sm input-bordered w-24 md:w-48" />
-    <div className="dropdown dropdown-end">
-      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img
-            alt="Tailwind CSS Navbar component"
-            src="kafe.jpg" />
-        </div>
-      </div>
-      <ul
-        tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li>
-          <a className="justify-between">
-            Profile
-            <span className="badge">New</span>
-          </a>
-        </li>
-        <li><a>Settings</a></li>
-        <li><a>Logout</a></li>
-      </ul>
-    </div>
-  </div>
-  </div>
     </div>
   );
 }
